@@ -1,0 +1,6 @@
+How to create new project :
+    - ng new <project_name>
+How to create component:
+    - ng generate component <component_name>
+How to start the app:
+    - ng serve or npm start

@@ -1,0 +1,21 @@
+<p>error-page works!</p>
+<div *ngIf="dataHash.subtitle">
+    <label *ngFor="let item of dataHash.subtitle">
+        <label *ngIf="item.title1">
+            <ul>
+                <li>{{item.title1}}</li>
+                <label *ngIf="item.title2">
+                    <ul>
+                        <li>{{item.title2}}</li>
+                        <label *ngIf="item.subtitles">
+                            <ul>
+                                <li *ngFor="let t1 of item.subtitles">{{t1}}</li>
+
+                            </ul>
+                        </label>
+                    </ul>
+                </label>
+            </ul>
+        </label>
+    </label>
+</div>
